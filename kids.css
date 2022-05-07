@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+h3{
+    text-align: center;
+}
+.kids{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 4rem;
+}
+
+#footer{
+    background-color:#ef8172;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.mo1{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+    
+}
+
+p{
+    text-align: center;
+}

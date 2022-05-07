@@ -1,0 +1,145 @@
+#title{
+    background-color: #ff4c68;
+    
+}
+#features{
+    background-color: white;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+}
+.container-fluid{
+    padding: 3% 15% 20%;
+}
+h1{ 
+    color: white;
+}
+
+h3{
+    font-family: sans-serif bold;
+}
+p{
+    color: grey;
+}
+.rotated{
+    width: 60%;
+     margin-left: 25%;
+    
+    transform: rotate(20deg);
+    position: absolute;
+   
+}
+body{
+    margin: 0;
+}
+.kids{
+    margin-top: 0;
+    background-color: #ff4c68;
+    padding-top: 5rem;
+    padding-bottom: 3%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    padding-bottom: 3%;
+}
+/* Navigation bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    
+}
+.nav-item{
+    padding: 0 18px ;
+    font-size: 1.5rem;
+}
+
+/* download buttons */
+.down-btn{
+    margin: 5% 3% 5% 0 ;
+}
+
+/* Dynamic Icon */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: yellowgreen;
+}
+
+/* Testmoinials  */
+#testimonials{
+    margin-top: 5%;
+    text-align: center;
+    background-color:#ef8172;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* press */
+.cart{
+    width: 15%;
+    height: 20%;
+}
+#press{
+    background-color:#ef8172;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 2.5rem;
+} 
+.press-logo{
+    width: 15%;
+    margin: 20px;
+}
+.mo1{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 100%;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+#pricing{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.submitbtn{
+    margin-top: 1rem;
+    margin-left: 24rem;
+}
+
+@media only screen and (max-width: 1028px) {
+    .rotated {
+      position: static;
+      transform: rotate(0);
+    }
+
+    .title{
+        text-align: center;
+    }
+  }
+
+  /* Footer */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 5%;
+}
+#footer{
+    text-align: center;
+}
