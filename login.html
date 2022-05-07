@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body >
+
+    <div class="back">
+        <center> <img class="cart" src="image/shopping-cart.png" alt="img"></center>
+
+    </div>
+
+    <!-- Form section    -->
+    <div class="container">
+        <form action="/login" class="reform" method="post" >
+            <center><h1>Registration</h1></center>
+            <div >
+                <label  class="col-4" for="firstname"><h4>FirstName</h4></label>
+                <input  class="col-6" type="text" id="fname" name="fname"  placeholder="Enter your firstname">
+            </div>
+            <div>
+                <label class="col-4" for="lastnaem"><h4>LastName</h4></label>
+                <input class="col-6" type="text" id="lname" name="lname" placeholder="Enter your lastname">
+            </div>
+            <div>
+                <label class="col-4" for="emailid"><h4>Email Id</h4></label>
+                <input  class="col-6" type="email" id="emailid" name="emailid" placeholder="Enter your email">
+            </div>
+            <div>
+                <label class="col-4" for="contactno"><h4>Contact Number</h4></label>
+                <input class="col-6" type="number" id="contactno" name="contactno" placeholder="Enter your Contact Number">
+            </div>
+            <div>
+                <label class="col-4" for="password"><h4>Set Password</h4></label>
+                <input class="col-6" type="text" id="password" name="password" placeholder="Set Your Password">
+            </div>
+           
+            <div>
+                <div class="submitbtn">
+                    <button type="submit" class=" btn btn-lg  btn-primary" onclick="  validate()" >Submit</button>
+                </div>
+            </div>
+               
+            
+            
+        </form>
+    </div>
+    
+
+
+    
+    <!-- validation section   -->
+    <script>
+        $(document).ready(
+            function () {
+                $("h3").css('color' , '#03045E');
+                $("h1").css('color' , ' #512D6D');
+    
+            }
+        )
+    </script>
+    
+
+
+    <script src="prac.js"></script>
+
+
+
+
+</body>
+
+</html>
